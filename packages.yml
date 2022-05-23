@@ -1,7 +1,7 @@
 
 packages:
   - package: dbt-labs/dbt_utils
-    version: [">=0.7.0", "<0.9.0"]
+    version: 0.8.12
 
   - package: fivetran/fivetran_utils
     version: 0.3.4
