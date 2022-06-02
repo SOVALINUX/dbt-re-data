@@ -31,7 +31,7 @@
 {% endmacro %}
 
 {% macro athena__string_type() %}
-    STRING
+    varchar
 {% endmacro %}
 
 {% macro redshift__string_type() %}
