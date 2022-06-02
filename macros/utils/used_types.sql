@@ -6,6 +6,10 @@
     timestamp without time zone
 {% endmacro %}
 
+{% macro athena__timestamp_type() %}
+    timestamp
+{% endmacro %}
+
 {% macro redshift__timestamp_type() %}
     TIMESTAMP
 {% endmacro %}
@@ -24,6 +28,10 @@
 
 {% macro default__string_type() %}
     text
+{% endmacro %}
+
+{% macro athena__string_type() %}
+    STRING
 {% endmacro %}
 
 {% macro redshift__string_type() %}
@@ -82,6 +90,10 @@
 
 {% macro default__numeric_type() %}
     double precision
+{% endmacro %}
+
+{% macro athena__numeric_type() %}
+    double
 {% endmacro %}
 
 {% macro redshift__numeric_type() %}
