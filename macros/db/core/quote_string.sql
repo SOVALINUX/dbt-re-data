@@ -7,6 +7,10 @@
     $${{ str }}$$
 {% endmacro %}
 
+{%- macro athena__quote_string(str) %}
+    '{{ dbt_utils.escape_single_quotes(str) }}'
+{% endmacro %}
+
 
 {%- macro quote_new_line() %}{{ adapter.dispatch('quote_new_line', 're_data')() }}{% endmacro %}
 
