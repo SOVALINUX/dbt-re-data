@@ -1,7 +1,7 @@
 
 packages:
   - git: https://github.com/SOVALINUX/dbt-utils
-    revision: "0.8.13"
+    revision: "1.1.100"
 
   - git: https://github.com/SOVALINUX/dbt_fivetran_utils
     revision: "0.3.10"
